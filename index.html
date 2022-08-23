@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en-us"><head>
+    <meta charset="utf-8">
+    
+    <title>Drag Racing Rivals</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="UnityProgress.javascript"></script>
+    <script src="js/UnityLoader.js"></script>
+    <script>
+        var gameInstance = UnityLoader.instantiate("gameContainer", "json/Drag.json", {onProgress: UnityProgress});
+    </script>
+</head>
+<body>
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 960px; height: 600px"></div>
+</div>
+<script src="responsive.javascript"></script>
+
+</body></html>
